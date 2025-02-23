@@ -1,0 +1,33 @@
+*
+
+# But not these files...
+!/.gitignore
+
+!*.go
+!go.sum
+!go.mod
+
+!README.md
+!LICENSE
+
+!*.geojson
+!.github
+!.github/*
+!.github/workflows/*
+!.github/ISSUE_TEMPLATE/*
+
+# Docs
+!docs
+!docs/*
+
+# Fonts
+!fonts
+!fonts/*.ttf
+
+# VSCode
+!.vscode
+!.vscode/*
+
+# Docker files
+!Dockerfile
+!compose.yml
